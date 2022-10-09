@@ -14,6 +14,10 @@ Professional Programmers and Teachers - 1.65M students <br>
 <h4>Conteúdo do curso</h4>
 25 seções • 401 aulas • Duração total: 80h 23m <br>
 
+E tambem o Curso Java Básico Gratuito
+seguindo as aulas apresentada no curso de Java gratuito do blog loiane.com
+
+
 
 
 

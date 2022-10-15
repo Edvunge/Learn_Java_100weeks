@@ -8,12 +8,25 @@ public class VerificaVogal {
     public static void main(String []args){
         Scanner input = new Scanner(System.in);
 
-        System.out.println("indique uma letra.");
-        String letra = input.nextLine();
-        if(letra.toUpperCase() != "a"){
-            System.out.println("funciona.");
+        char letra = 'o';
+
+        switch (letra){
+            case 'a':
+                case 'e':
+                    case 'i':
+                        case 'o':
+                            case 'u': System.out.println("vogal");
+                break;
+            case 'b': case 'c': case 'd': case 'f':
+            case 'g': case 'h': case 'j': case 'l':
+            case 'm': case 'n': case 'p': case 'q':
+            case 'r': case 's': case 't': case 'v':
+            case 'x': case 'y': case 'w': case 'z':
+                System.out.println("consoante");
+                break;
+            default:
+                System.out.println("nao e uma letra.");
         }
-        System.out.println("fim do if");
         input.close();
     }
 }

@@ -10,7 +10,7 @@ public class ProdutoMaisBarato {
         Scanner input = new Scanner(System.in);
 
         System.out.println("indique um numero.");
-        int nu1 = input.nextInt();
+        int num1 = input.nextInt();
 
         System.out.println("indique um outro numero.");
         int num2 = input.nextInt();

@@ -1,9 +1,10 @@
 package ExerciciosGeneral_Java.ComndsCondisionals;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 // Faca um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu
-// peso ideal, utilizando as seguintes formulas (onde ´ h corresponde a altura):
+// peso ideal, utilizando as seguintes formulas (onde h corresponde a altura):
 //  Homens: (72.7 ∗ h) − 58
 //  Mulheres: (62, 1 ∗ h) − 44, 7
 public class Peso_Ideial {
@@ -18,14 +19,17 @@ public class Peso_Ideial {
 
         double peso_Ideial;
 // exercicio por resolver.
-        if(sexo.toUpperCase() == "F"){
-            peso_Ideial = ( ( 62.1 * altura ) - 44.7);
-            System.out.println("o seu pedo ideial e de: " + peso_Ideial);
-        } else if (sexo.toUpperCase() == "M"){
-            peso_Ideial = ( (72.7 * altura) - 58);
-            System.out.println("o seu peso ideial e de: " + peso_Ideial);
-        } else {
-            System.out.println("Valor Invalido.");
+        switch (sexo.toUpperCase()){
+            case "F":
+                peso_Ideial = ( ( 62.1 * altura ) - 44.7);
+                System.out.println("o seu pedo ideial e de: " + peso_Ideial);
+                break;
+            case "m":
+                peso_Ideial = ( (72.7 * altura) - 58);
+                System.out.println("o seu peso ideial e de: " + peso_Ideial);
+                break;
+            default:
+                System.out.println("Valor Invalido.");
         }
         input.close();
     }

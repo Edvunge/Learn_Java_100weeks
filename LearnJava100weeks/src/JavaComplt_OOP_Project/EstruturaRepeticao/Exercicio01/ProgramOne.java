@@ -10,6 +10,7 @@ public class ProgramOne {
         Scanner sc = new Scanner(System.in);
 
         int soma = 0;
+
         System.out.println("insira um numero:?");
         int num = sc.nextInt();
 

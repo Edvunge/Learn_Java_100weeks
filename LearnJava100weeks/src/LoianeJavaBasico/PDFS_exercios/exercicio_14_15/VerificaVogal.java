@@ -1,7 +1,5 @@
 package LoianeJavaBasico.PDFS_exercios.exercicio_14_15;
-
 import java.util.Scanner;
-
 //  Faça um Programa que verifique se uma letra digitada é vogal ou
 //consoante.
 public class VerificaVogal {
@@ -9,7 +7,6 @@ public class VerificaVogal {
         Scanner input = new Scanner(System.in);
 
         char letra = 'o';
-
         switch (letra){
             case 'a':
                 case 'e':

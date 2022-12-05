@@ -1,7 +1,5 @@
 package LoianeJavaBasico.PDFS_exercios.exercicio_14_15;
-
 import java.util.Scanner;
-
 // Faça um Programa que pergunte em que turno você estuda. Peça
 // para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a
 // mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor
@@ -26,7 +24,6 @@ public class Greeting {
             default:
                 System.out.println("Inválido!.");
         }
-
         input.close();
     }
 }

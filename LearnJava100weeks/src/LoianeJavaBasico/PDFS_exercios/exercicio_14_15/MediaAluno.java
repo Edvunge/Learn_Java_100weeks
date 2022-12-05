@@ -1,7 +1,5 @@
 package LoianeJavaBasico.PDFS_exercios.exercicio_14_15;
-
 import java.util.Scanner;
-
 //  Faça um programa para a leitura de duas notas parciais de um aluno.
 //O programa deve calcular a média alcançada por aluno e apresentar:
 //o A mensagem "Aprovado", se a média alcançada for maior ou
@@ -27,7 +25,6 @@ public class MediaAluno {
         } else if (CalcMedia >= 10){
             System.out.println("Aprovado com Distincao.");
         }
-
         entrada.close();
     }
 }

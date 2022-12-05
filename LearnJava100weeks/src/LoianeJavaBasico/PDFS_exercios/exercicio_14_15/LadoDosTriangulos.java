@@ -1,7 +1,5 @@
 package LoianeJavaBasico.PDFS_exercios.exercicio_14_15;
-
 import java.util.Scanner;
-
 // .Faça um Programa que peça os 3 lados de um triângulo. O programa
 //deverá informar se os valores podem ser um triângulo. Indique, caso
 //os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou
@@ -30,7 +28,6 @@ public class LadoDosTriangulos {
         } else if (CalcMedia >= 10){
             System.out.println("Aprovado com Distincao.");
         }
-
         entrada.close();
     }
 }

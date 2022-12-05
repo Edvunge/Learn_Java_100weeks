@@ -6,19 +6,18 @@ import java.util.Scanner;
 //Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido
 public class VerifiqueSexo {
     public static void main(String[] args) {
-        /*
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("indique o sexo?");
-        char sexo = entrada.next();
+        char sexo = entrada.next().charAt(0);
 
-        if(sexo.toUpperCase() == "M"){
-            System.out.println("Masculino");
-        } else if(sexo.toUpperCase() == "F") {
-            System.out.println("feminino");
+        if (sexo == 'F'){
+            System.out.printf("F - Feminino. \n");
+        } else if (sexo == 'M') {
+            System.out.printf("M - Masculino. \n");
+        } else {
+            System.out.println("Sexo inválido. \n");
         }
         entrada.close();
-
-         */
     }
 }

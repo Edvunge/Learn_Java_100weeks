@@ -1,7 +1,5 @@
 package LoianeJavaBasico.PDFS_exercios.exercicio_14_15;
-
 import java.util.Scanner;
-
 // . Faça um Programa que leia três números e mostre o maior deles
 public class MaoirEntreTresNumeros {
     public static void main(String[] args) {

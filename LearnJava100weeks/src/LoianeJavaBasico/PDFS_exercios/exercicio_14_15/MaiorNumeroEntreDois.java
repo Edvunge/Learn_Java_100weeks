@@ -1,7 +1,5 @@
 package LoianeJavaBasico.PDFS_exercios.exercicio_14_15;
-
 import java.util.Scanner;
-
 // Faça um Programa que peça dois números e imprima o maior deles.
 public class MaiorNumeroEntreDois {
     public static void main(String[] args) {

@@ -1,7 +1,5 @@
 package LoianeJavaBasico.PDFS_exercios.exercicio_14_15;
-
 import java.util.Scanner;
-
 // 25.Faça um programa que faça 5 perguntas para uma pessoa sobre um
 //crime. As perguntas são:
 //. "Telefonou para a vítima?"
@@ -37,7 +35,6 @@ public class DescobreCriminoso {
         //if(){
             System.out.println("entrou no if");
        // }
-
         input.close();
     }
 }

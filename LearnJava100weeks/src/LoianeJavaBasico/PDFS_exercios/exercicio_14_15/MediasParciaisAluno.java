@@ -1,7 +1,5 @@
 package LoianeJavaBasico.PDFS_exercios.exercicio_14_15;
-
 import java.util.Scanner;
-
 //14.Faça um programa que lê as duas notas parciais obtidas por um aluno
 //numa disciplina ao longo de um semestre, e calcule a sua média. A
 //atribuição de conceitos obedece à tabela abaixo:
@@ -32,7 +30,6 @@ public class MediasParciaisAluno {
         } else if (CalcMedia >= 10){
             System.out.println("Aprovado com Distincao.");
         }
-
         entrada.close();
     }
 }

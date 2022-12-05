@@ -1,14 +1,11 @@
 package LoianeJavaBasico.PDFS_exercios.exercicio_14_15;
-
 import java.util.Scanner;
-
 // Faça um Programa que leia um número e exiba o dia correspondente
 //da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve
 //aparecer valor inválido.
 public class DiaSemana {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
         System.out.println("inidique um numero.");
         int num = input.nextInt();
 
@@ -37,7 +34,6 @@ public class DiaSemana {
             default:
                 System.out.println("Valor Invalido.");
         }
-
         input.close();
     }
 }
